@@ -1,0 +1,60 @@
+.header-Card{
+    background-color: #f2f2f2;
+    width: 20%;
+    border-radius: 3% ;
+    padding: 8px ;
+    border: 1px solid #ffa500;
+    margin-top: 2%;
+    /* background: linear-gradient(#ffffff 80%, #ff9100 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+}
+.img-Card{
+  width: 60%;
+}
+
+.btn-Apply{
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #f66f00, #f66f00, #ede610);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins',
+  sans-serif;
+  margin: 1rem 7rem;
+  cursor: pointer;
+  transition: .5s;
+  height: 40px;
+  width: 30%;
+  font-size: 15px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+.btn-Applys {
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #f66f00, #f66f00, #ede610);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins',
+    sans-serif;
+  margin: 1rem 7rem;
+  cursor: pointer;
+  transition: .5s;
+  height: 40px;
+  width: 20%;
+  font-size: 15px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+.btn-Apply:hover, .btn-Applys:hover{
+  background-position: right;
+}
