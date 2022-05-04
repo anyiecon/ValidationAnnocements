@@ -3,11 +3,15 @@ import { UIButtons } from "../../UI/UIButtons/UIButtons";
 import { UICards } from "../../UI/UICards/UICardsAnnocements";
 
 export const Annocements = () => {
-  const URL = "https://backend-fullmarket-py.herokuapp.com/getallproducts";
-
+    
   const [products, setProducts] = useState([]);
   
-  console.log(localStorage.getItem('uiduser'))
+  const uidUsers = localStorage.getItem('uiduser')
+  
+  console.log(uidUsers);
+
+  const URL = `https://fullmarket-provitional-backend.herokuapp.com/getmyproducts/${uidUsers}`
+  //const URL = "https://backend-fullmarket-py.herokuapp.com/getallproducts";
 
   
   const mostrar = async () => {

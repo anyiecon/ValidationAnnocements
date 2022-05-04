@@ -5,7 +5,7 @@ import Imag_login from "../../../images/imgLogin.png";
 import logo from "../../../images/FMarket1.png";
 import logo_name from "../../../images/FMarket2.png";
 import './SingIn.css'
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const SingIn = () => {
   const [email, setEmail] = useState("");
@@ -62,9 +62,9 @@ const SingIn = () => {
             </button>
             <a href="foo">Forgot Password?</a>
             <div className="hr" />
-            <NavLink to='/Login'>
+            {/* <NavLink to='/Login'> */}
             <button className="btn">Crear cuenta nueva</button>
-            </NavLink>
+            {/* </NavLink> */}
           </div>
         </div>
       </form>
